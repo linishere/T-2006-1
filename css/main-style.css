@@ -1,42 +1,26 @@
-.has-mustard-bg {
-    background-color: #FDBB34;
+.has-red-bg {
+    background-color: #B22222;
+    color: #ffffff;
 }
 
-.has-green-bg {
-    background-color: #1E4132;
+.has-black-bg {
+    background-color: #050401;
 }
 
-.has-white-mustard-gradient {
-    background: rgb(255, 255, 255);
-    background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(253, 187, 52, 1) 50%, rgba(253, 187, 52, 1) 100%);
-    background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(253, 187, 52, 1) 50%, rgba(253, 187, 52, 1) 100%);
-    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(253, 187, 52, 1) 50%, rgba(253, 187, 52, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#fdbb34", GradientType=1);
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
 }
 
-@media(max-width: 1024px) {
-    .has-white-mustard-gradient {
-        background: rgb(255, 255, 255);
-        background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 25%, rgba(253, 187, 52, 1) 25%, rgba(253, 187, 52, 1) 100%);
-        background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 25%, rgba(253, 187, 52, 1) 25%, rgba(253, 187, 52, 1) 100%);
-        background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 25%, rgba(253, 187, 52, 1) 25%, rgba(253, 187, 52, 1) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#fdbb34", GradientType=1);
-    }
-}
-
-@import url('https://fonts.googleapis.com/css?family=Calistoga|Open+Sans&display=swap');
-
-h1,
-h2,
-h3 {
-    font-family: 'Calistoga';
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+h1,h2,h3 {
+font-family: 'Prata', serif;
     margin-bottom: 10px;
 }
-p,
-a,
-span {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+p,a,span {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
 }
 
 @media(max-width: 767px) {
@@ -95,8 +79,8 @@ nav {
 }
 
 .feature-img {
-    max-width: 60%;
-    margin: 0 auto;
+  display: flex;
+  margin: 0 auto;
 }
 
 .column {
@@ -118,35 +102,14 @@ nav {
     }
 }
 
-#newsletter {
+#contact {
     text-align: center;
 }
 
-#newsletter p {
+#contact p {
     width: 600px;
     margin: 0 auto;
 }
-
-.social-link {
-    padding: 15px;
-    color: #FFFFFF !important;
-}
-
-.newsletter-input {
-    border: none;
-    border-bottom: 2px solid #1E4132;
-    border-radius: 0% !important;
-    box-shadow: none;
-    text-align: center;
-}
-
-#newsletter .field {
-    width: 400px;
-    max-width: 80%;
-    padding: 20px;
-    margin: 0 auto;
-}
-
 #footer p {
     padding: 20px;
 }
