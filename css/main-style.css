@@ -151,7 +151,7 @@ nav {
   color:#737373;
 }
 #footer a:hover{
-  color:#3366cc;
+  color:#B22222;
   text-decoration:none;
 }
 
@@ -167,10 +167,10 @@ nav {
   display:block
 }
 .footer-links a{
-  color:#737373
+  color:#B22222
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover{
-  color:#3366cc;
+  color#B22222;
   text-decoration:none;
 }
 .footer-links.inline li{
