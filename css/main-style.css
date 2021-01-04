@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 
 .has-red-bg {
     background-color: #D83131;

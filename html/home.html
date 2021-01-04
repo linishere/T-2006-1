@@ -6,6 +6,7 @@
     <title>Home</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="stylesheet" href="../css/main-style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <div id="wrapper" class="has-text-centered-mobile">
@@ -65,7 +66,7 @@
         </div>
     </section>
     <section id="features" class="section has-red-bg">
-        <div class="container">
+        <div class="container" data-aos="fade-down">
             <div class="columns reverse-row-order">
                 <div class="column">
                     <h3 class="is-size-3">
@@ -80,7 +81,7 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container" data-aos="fade-down">
             <div class="columns">
                 <div class="column">
                     <img class="feature-img" src="../images/dc_group_photo.jpg" alt="feature" />
@@ -96,7 +97,7 @@
         </div>
     </section>
 
-    <section id="contact" class="section">
+    <section id="contact" class="section" data-aos="fade-down">
         <div class="container">
             <h3 class="is-size-3">
                 Contact Us</h3>
@@ -155,5 +156,9 @@
     </div>
     </section>
 </div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
   </body>
 </html>
