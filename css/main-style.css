@@ -88,7 +88,7 @@ nav {
   margin: 0 auto;
 }
 
-.column {
+#features .column {
     display: flex;
     justify-content: center;
     flex-flow: column;
