@@ -35,11 +35,6 @@ p,a,span {
     }
 }
 
-
-.logo:hover {
-  color: #B22222;
-}
-
 .a-menu {
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -49,7 +44,7 @@ p,a,span {
 
 .a-menu:hover {
     opacity: 1;
-    color: #B22222 !important;
+    color: #1c7c54 !important;
     text-decoration: none;
 }
 
@@ -119,7 +114,7 @@ nav {
 }
 
 #contact a {
-  color: #B22222;
+  color: #1c7c54;
 }
 
 #contact p {
@@ -153,7 +148,7 @@ nav {
   color:#737373;
 }
 #footer a:hover{
-  color:#B22222;
+  color:#d6f8d6;
   text-decoration:none;
 }
 
@@ -169,10 +164,10 @@ nav {
   display:block
 }
 .footer-links a{
-  color:#B22222
+  color:#d6f8d6;
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover{
-  color#B22222;
+  color#D6f8d6;
   text-decoration:none;
 }
 .footer-links.inline li{
