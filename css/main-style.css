@@ -98,7 +98,11 @@ nav {
 
 .column h3,
 .column p {
-    align-self: center;
+    align-self: flex-start;
+}
+
+.pros {
+  text-align: left;
 }
 
 @media(max-width: 1024px) {
