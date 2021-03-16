@@ -106,7 +106,7 @@ nav {
 }
 
 .cons {
-  text-align: right;
+  text-align: left;
 }
 
 @media(max-width: 1024px) {
