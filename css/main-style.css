@@ -13,6 +13,16 @@ html {
 .has-grey-bg {
     background-color: #26272b;
 }
+.has_2020_image_bg{
+background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/company_image2.jpeg');
+
+width: 100%;
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
 
 .has-green{
   color: #1c7c54;
